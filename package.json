@@ -1,0 +1,29 @@
+{
+  "name": "react-intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoheirkhonyagar/react-intro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zoheirkhonyagar/react-intro/issues"
+  },
+  "homepage": "https://github.com/zoheirkhonyagar/react-intro#readme",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^3.0.0",
+    "eslint": "^8.30.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.8.1",
+    "vite": "^4.0.3"
+  }
+}
